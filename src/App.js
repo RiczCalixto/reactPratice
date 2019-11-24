@@ -29,6 +29,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Random People</h1>
         <SearchBox
           placeholder={"Search Monster"}
           handleChange={this.onChange}

@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riczcalixto.github.io/random-androids",
+  "homepage": "https://riczcalixto.github.io/reactPratice",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",

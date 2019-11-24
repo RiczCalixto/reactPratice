@@ -5,7 +5,7 @@ import "./App.css";
 class App extends Component {
   state = {
     monsters: [],
-    searchField: undefined
+    searchField: ""
   };
 
   componentDidMount() {
@@ -16,12 +16,16 @@ class App extends Component {
   }
 
   onChange = e => {
-    this.setState({ searchField: e });
-    console.log(this.state.searchField);
+    const fieldValue = e.target.value;
+    this.setState({ searchField: fieldValue });
   };
 
   render() {
-    const { monsters } = this.state;
+    const { monsters, searchField } = this.state;
+    const filteredMonsters = monsters.filter(monster =>
+      monster.name.toLowerCase().includes(searchField.toLowerCase())
+    );
+
     return (
       <div className="App">
         <input
@@ -29,7 +33,7 @@ class App extends Component {
           placeholder="search monsters"
           onChange={this.onChange}
         />
-        <CardList monsters={monsters} />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }

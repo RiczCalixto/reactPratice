@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/random-androids/static/css/main.3cbf8606.chunk.css",
+    "main.js": "/random-androids/static/js/main.d73ad266.chunk.js",
+    "main.js.map": "/random-androids/static/js/main.d73ad266.chunk.js.map",
+    "runtime-main.js": "/random-androids/static/js/runtime-main.6887aa73.js",
+    "runtime-main.js.map": "/random-androids/static/js/runtime-main.6887aa73.js.map",
+    "static/js/2.8a38d52c.chunk.js": "/random-androids/static/js/2.8a38d52c.chunk.js",
+    "static/js/2.8a38d52c.chunk.js.map": "/random-androids/static/js/2.8a38d52c.chunk.js.map",
+    "index.html": "/random-androids/index.html",
+    "precache-manifest.51b6e7c311601adc93f2f50ffc8fa042.js": "/random-androids/precache-manifest.51b6e7c311601adc93f2f50ffc8fa042.js",
+    "service-worker.js": "/random-androids/service-worker.js",
+    "static/css/main.3cbf8606.chunk.css.map": "/random-androids/static/css/main.3cbf8606.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6887aa73.js",
+    "static/js/2.8a38d52c.chunk.js",
+    "static/css/main.3cbf8606.chunk.css",
+    "static/js/main.d73ad266.chunk.js"
+  ]
+}
